@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Text, TextInput, StyleSheet } from "react-native";
+import { View, Text, TextInput, StyleSheet, Image } from "react-native";
 import { useRouter } from "expo-router";
 import ImageButton from "../components/ImageButton";
 
@@ -23,6 +23,10 @@ export default function Login() {
 
   return (
     <View style={styles.container}>
+      <Image
+        source={require("../assets/images/logo.png")}
+        style={styles.logo}
+      />
       <Text style={styles.title}>Login</Text>
 
       <TextInput
@@ -55,6 +59,11 @@ const styles = StyleSheet.create({
     alignItems: "center",
     backgroundColor: "#f5f5f5",
     padding: 20,
+  },
+  logo: {
+    width: 100,
+    height: 100,
+    marginBottom: 20,
   },
   title: {
     fontSize: 24,
