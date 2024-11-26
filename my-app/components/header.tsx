@@ -28,7 +28,7 @@ const Header = () => {
         if (buttonIndex === 0 && segments[0] === "listagem") {
           router.push("/sobre");
         } else if (buttonIndex === 1) {
-          router.replace("/"); // Redireciona para login
+          router.replace("/");
         }
       }
     );

@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     height: 50,
   },
   pressed: {
-    opacity: 0.6, // Feedback visual quando pressionado
+    opacity: 0.6,
   },
   image: {
     width: "100%",
