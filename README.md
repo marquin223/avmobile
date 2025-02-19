@@ -2,15 +2,13 @@
 
 ### Testes Unitários
 
-Focam em verificar o funcionamento correto de pequenas unidades do código, como funções ou componentes isolados. O objetivo é assegurar que cada parte individual da aplicação opere conforme o esperado, independentemente das demais.
+Os testes unitários ja dizem no próprio nome o que fazem, são testes geralmente para testar uma função, componete, botão, entre outros que servem para ver se por exemplo o botão está funcionando corretamente.
 
 ### Testes End-to-End (E2E)
 
-Avaliam o sistema como um todo, simulando o comportamento real do usuário. Esses testes percorrem todo o fluxo da aplicação, desde a interface até o banco de dados, garantindo que todos os componentes interajam corretamente em conjunto.
+Os testes end-2-end servem para testar os fluxos de uma aplicação por exemplo, vou ná pagina 'listagem' abro o menu e vou para o outra página, ou até de quando faz o login que páginas ele conssegue ir. Esses testes seriam para testar como um usuário iria mexer na aplicação.
 
 Enquanto os testes unitários asseguram que cada componente funcione isoladamente, os testes E2E garantem que a integração entre esses componentes proporcione uma experiência consistente e livre de erros para o usuário final.
-
-# README
 
 ## Instalação das Dependências
 
