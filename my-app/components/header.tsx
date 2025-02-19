@@ -1,7 +1,6 @@
 import React from "react";
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import { useRouter, useSegments } from "expo-router";
-import { Ionicons } from "@expo/vector-icons";
 import { useActionSheet } from "@expo/react-native-action-sheet";
 
 const Header = () => {
@@ -35,10 +34,10 @@ const Header = () => {
   };
 
   return (
-    <View style={styles.header}>
+    <View testID="header" style={styles.header}>
       <Text style={styles.title}>{getTitle()}</Text>
-      <TouchableOpacity onPress={openMenu}>
-        <Ionicons name="menu" size={28} color="#000" />
+      <TouchableOpacity testID="menu-button" onPress={openMenu}>
+        <Text>Menu</Text>
       </TouchableOpacity>
     </View>
   );

@@ -19,6 +19,7 @@ const ImageButton: React.FC<ImageButtonProps> = ({
 }) => {
   return (
     <Pressable
+      testID="image-button"
       onPress={onPress}
       style={({ pressed }) => [
         styles.container,
@@ -26,7 +27,7 @@ const ImageButton: React.FC<ImageButtonProps> = ({
         style,
       ]}
     >
-      <Image source={source} style={styles.image} />
+      <Image testID="image-button-image" source={source} style={styles.image} />
     </Pressable>
   );
 };
